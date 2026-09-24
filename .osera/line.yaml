@@ -1,0 +1,58 @@
+line: spring-data-2021.2
+bom: org.springframework.data:spring-data-bom
+repository: patch-spring-data-bom
+members:
+  - org.springframework.data:spring-data-bom
+  - org.springframework.data:spring-data-cassandra@3.4.18
+  - org.springframework.data:spring-data-commons@2.7.18
+  - org.springframework.data:spring-data-couchbase@4.4.18
+  - org.springframework.data:spring-data-elasticsearch@4.4.18
+  - org.springframework.data:spring-data-geode@2.7.18
+  - org.springframework.data:spring-data-jdbc@2.4.18
+  - org.springframework.data:spring-data-relational@2.4.18
+  - org.springframework.data:spring-data-jpa@2.7.18
+  - org.springframework.data:spring-data-mongodb@3.4.18
+  - org.springframework.data:spring-data-neo4j@6.3.18
+  - org.springframework.data:spring-data-r2dbc@1.5.18
+  - org.springframework.data:spring-data-redis@2.7.18
+  - org.springframework.data:spring-data-rest-webmvc@3.7.18
+  - org.springframework.data:spring-data-rest-core@3.7.18
+  - org.springframework.data:spring-data-rest-hal-explorer@3.7.18
+  - org.springframework.data:spring-data-keyvalue@2.7.18
+  - org.springframework.data:spring-data-envers@2.7.18
+  - org.springframework.data:spring-data-ldap@2.7.18
+repositories:
+  patch-spring-data-commons:
+    - org.springframework.data:spring-data-commons@2.7.18
+  patch-spring-data-keyvalue:
+    - org.springframework.data:spring-data-keyvalue@2.7.18
+  patch-spring-data-mongodb:
+    - org.springframework.data:spring-data-mongodb@3.4.18
+  patch-spring-data-rest:
+    - org.springframework.data:spring-data-rest-core@3.7.18
+    - org.springframework.data:spring-data-rest-hal-explorer@3.7.18
+    - org.springframework.data:spring-data-rest-webmvc@3.7.18
+  patch-spring-data-build:
+    - org.springframework.data:spring-data-r2dbc@1.5.18
+  patch-spring-data-cassandra:
+    - org.springframework.data:spring-data-cassandra@3.4.18
+  patch-spring-data-couchbase:
+    - org.springframework.data:spring-data-couchbase@4.4.18
+  patch-spring-data-elasticsearch:
+    - org.springframework.data:spring-data-elasticsearch@4.4.18
+  patch-spring-data-envers:
+    - org.springframework.data:spring-data-envers@2.7.18
+  patch-spring-data-geode:
+    - org.springframework.data:spring-data-geode@2.7.18
+  patch-spring-data-jdbc:
+    - org.springframework.data:spring-data-jdbc@2.4.18
+  patch-spring-data-jpa:
+    - org.springframework.data:spring-data-jpa@2.7.18
+  patch-spring-data-ldap:
+    - org.springframework.data:spring-data-ldap@2.7.18
+  patch-spring-data-neo4j:
+    - org.springframework.data:spring-data-neo4j@6.3.18
+  patch-spring-data-redis:
+    - org.springframework.data:spring-data-redis@2.7.18
+  patch-spring-data-relational:
+    - org.springframework.data:spring-data-relational@2.4.18
