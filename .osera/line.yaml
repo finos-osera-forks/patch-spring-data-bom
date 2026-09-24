@@ -21,6 +21,7 @@ members:
   - org.springframework.data:spring-data-keyvalue@2.7.18
   - org.springframework.data:spring-data-envers@2.7.18
   - org.springframework.data:spring-data-ldap@2.7.18
+  - org.springframework.data:spring-data-rest-parent
 repositories:
   patch-spring-data-commons:
     - org.springframework.data:spring-data-commons@2.7.18
@@ -32,6 +33,7 @@ repositories:
     - org.springframework.data:spring-data-rest-core@3.7.18
     - org.springframework.data:spring-data-rest-hal-explorer@3.7.18
     - org.springframework.data:spring-data-rest-webmvc@3.7.18
+    - org.springframework.data:spring-data-rest-parent
   patch-spring-data-build:
     - org.springframework.data:spring-data-r2dbc@1.5.18
   patch-spring-data-cassandra:
