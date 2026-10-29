@@ -1,3 +1,4 @@
+# Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 line: spring-data-2021.2
 bom: org.springframework.data:spring-data-bom
 repository: patch-spring-data-bom
@@ -21,7 +22,8 @@ members:
   - org.springframework.data:spring-data-keyvalue@2.7.18
   - org.springframework.data:spring-data-envers@2.7.18
   - org.springframework.data:spring-data-ldap@2.7.18
-  - org.springframework.data:spring-data-rest-parent
+  - org.springframework.data:spring-data-rest-parent@3.7.18
+  - org.springframework.data:spring-data-mongodb-parent@3.4.18
 repositories:
   patch-spring-data-commons:
     - org.springframework.data:spring-data-commons@2.7.18
@@ -29,11 +31,12 @@ repositories:
     - org.springframework.data:spring-data-keyvalue@2.7.18
   patch-spring-data-mongodb:
     - org.springframework.data:spring-data-mongodb@3.4.18
+    - org.springframework.data:spring-data-mongodb-parent@3.4.18
   patch-spring-data-rest:
     - org.springframework.data:spring-data-rest-core@3.7.18
     - org.springframework.data:spring-data-rest-hal-explorer@3.7.18
     - org.springframework.data:spring-data-rest-webmvc@3.7.18
-    - org.springframework.data:spring-data-rest-parent
+    - org.springframework.data:spring-data-rest-parent@3.7.18
   patch-spring-data-build:
     - org.springframework.data:spring-data-r2dbc@1.5.18
   patch-spring-data-cassandra:
